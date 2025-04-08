@@ -1,0 +1,27 @@
+[
+    {
+        "id": "P001",
+        "name": "Apple (Kilo)",
+        "price": 150.5
+    },
+    {
+        "id": "P002",
+        "name": "Milk Packet (1L)",
+        "price": 250
+    },
+    {
+        "id": "P003",
+        "name": "Bread Loaf",
+        "price": 180
+    },
+    {
+        "id": "P004",
+        "name": "Eggs (Dozen)",
+        "price": 480
+    },
+    {
+        "id": "P005",
+        "name": "Kasiya(100ml)",
+        "price": 149.98
+    }
+]

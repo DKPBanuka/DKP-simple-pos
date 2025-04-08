@@ -1,0 +1,8 @@
+# Ignore sensitive data files
+data/users.json
+
+# Ignore VS Code specific files
+.vscode/
+
+# Ignore log files if you create any
+# error.log

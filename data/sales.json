@@ -1,0 +1,23 @@
+[
+    {
+        "sale_id": "1744115541-06d58ce4",
+        "timestamp": 1744115541,
+        "datetime": "2025-04-08 18:02:21",
+        "items": [
+            {
+                "id": "P001",
+                "name": "Apple (Kilo)",
+                "price": 150.5,
+                "quantity": 3
+            },
+            {
+                "id": "P003",
+                "name": "Bread Loaf",
+                "price": 180,
+                "quantity": 1
+            }
+        ],
+        "total_amount": 631.5,
+        "sold_by": "DELL"
+    }
+]

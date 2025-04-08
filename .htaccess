@@ -1,0 +1,31 @@
+# .htaccess for Simple Grocery POS
+
+# --- Security ---
+# Prevent directory listing
+Options -Indexes
+
+# Prevent access to sensitive directories/files (optional but recommended)
+<FilesMatch "\.(json)$">
+    Require all denied
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Block direct access to php files in modules directory
+    RewriteRule ^modules/.*\.php$ - [F,L,NC]
+
+    # Block direct access to data directory content (alternative to FilesMatch)
+    # RewriteRule ^data/ - [F,L,NC]
+
+</IfModule>
+
+# --- Default File ---
+DirectoryIndex index.php login.php
+
+# --- PHP Settings (optional) ---
+# Example: Increase upload size or execution time if needed
+# php_value upload_max_filesize 64M
+# php_value post_max_size 64M
+# php_value max_execution_time 300
+# php_value max_input_time 300

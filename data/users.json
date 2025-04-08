@@ -1,0 +1,10 @@
+[
+    {
+        "username": "admin",
+        "password_hash": "$2y$10$4ml1sm8ZTyqN7vf/Uo09G.oxf3j/J/eItlvK63nV2mHUGYbLc.HeS"
+    },
+    {
+        "username": "cashier",
+        "password_hash": "$2y$10$cphiHz3Cx1S0i1uToJSoVeh0bbhJWrhvw6ISrKA2Qo03hixoYjDwW"
+    }
+]
